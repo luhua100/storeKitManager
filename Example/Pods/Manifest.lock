@@ -1,0 +1,16 @@
+PODS:
+  - storeKitManager (0.1.0)
+
+DEPENDENCIES:
+  - storeKitManager (from `../`)
+
+EXTERNAL SOURCES:
+  storeKitManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  storeKitManager: 9de45e28b15dfa4a7b9d2bf20b9b60a309c743d4
+
+PODFILE CHECKSUM: e325242f6bb3f7b80f53789ab2fbd07ea4fa83bc
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,22 @@
+{
+  "name": "storeKitManager",
+  "version": "0.1.0",
+  "summary": "A short description of storeKitManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luhua100/storeKitManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luhua100": "luhua2245@163.com"
+  },
+  "source": {
+    "git": "https://github.com/luhua100/storeKitManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "storeKitManager/Classes/**/*"
+}
