@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'storeKitManager_Example' do
+  pod 'storeKitManager', :path => '../'
+
+  target 'storeKitManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
