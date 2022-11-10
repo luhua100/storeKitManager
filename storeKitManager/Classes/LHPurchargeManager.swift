@@ -41,14 +41,14 @@ public protocol SkProductBuyInDelegate : NSObjectProtocol {
 //typealias DicBlock = (_ successed : Bool , _ result : Dictionary<String,Any>)->()
 
 public class LHPurchargeManager: NSObject {
-   static let shareManager = LHPurchargeManager()
+  public static let shareManager = LHPurchargeManager()
    
-    weak var delegate : SkProductBuyInDelegate?
+  public  weak var delegate : SkProductBuyInDelegate?
     
     //购买完后是否在iOS端向服务器验证一次,默认为YES
     var CheckAfterPay : Bool = true
     
-    var productDict : NSMutableDictionary?
+  public  var productDict : NSMutableDictionary?
     
   
     private  override init() {
